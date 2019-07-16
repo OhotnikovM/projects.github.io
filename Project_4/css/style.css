@@ -186,6 +186,13 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  #fh5co-header
+{ margin-top: 40px; 
+  }
+}
+
+
 .code {
   margin: 0 auto;
   height: 500px;
@@ -226,6 +233,12 @@ h1, h2, h3, h4, h5, h6, figure {
   align-items: center;
   flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+  .projecs-block
+  {
+  display: block;
+  }
+}
 
 
 .projecs-block .project-card p {
@@ -238,6 +251,14 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #start #fh5co-blog {
   min-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  #start #fh5co-blog 
+{
+  min-height: 100vh;
+  text-align: center;
+  }
 }
 
 #fh5co-started {
